@@ -22,7 +22,10 @@ You can access the GDC data portal at https://gdc-portal.nci.nih.gov/
 ```bash
 gdc-client download -m gdc_manifest.txt
 ```
-If the data mentionned in the manifest file is access-restricted, you further need to download a token file that identifies you. To do so, click on your user name in the top right of the page, and select "Download token"; save it to the appropriate directory. You can then llaunch the GDC client using both -m (manifest) and -t (token) options:
+If the data mentionned in the manifest file is access-restricted, you further need to download a token file that identifies you. To do so, click on your user name in the top right of the page, and select "Download token"; save it to the appropriate directory. 
+![token](GDC-token.png?raw=true "user token")
+
+You can then llaunch the GDC client using both -m (manifest) and -t (token) options:
 ```bash
 gdc-client download -m gdc_manifest.txt  -t gdc-user-token.txt
 ```
