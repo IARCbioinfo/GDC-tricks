@@ -5,13 +5,18 @@ You can access the GDC data portal at https://gdc-portal.nci.nih.gov/
 
 ### Finding a dataset 
 - Click on the "data" tab
+![data tab](GDC-data.png?raw=true "Data tab")
 - Choose the appropriate criteria (tissue, cancer type, data type, etc)
 - Click on the "files" tab
+![files tab](GDC-files.png?raw=true "files tab")
 - Click on the cart icon to select files
+![cart](GDC-cart.png?raw=true "cart")
 
 ### Downloading data
 - Click on the "cart" tab
+![cart tab](GDC-cart_tab.png?raw=true "cart tab")
 - Click on the "Download" button, and then on "Manifest"; save it to the appropriate directory
+![manifest](GDC-manifest.png?raw=true "manifest")
 - Download the GDC client at https://gdc.cancer.gov/access-data/gdc-data-transfer-tool
 - Launch the GDC client using the -m option to specify the path to the Manifest file:
 ```bash
