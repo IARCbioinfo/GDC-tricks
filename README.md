@@ -39,3 +39,11 @@ Then compile the sources using python package setuptools:
 python setup.py build
 python setup.py install
 ```
+### Other useful options
+#### to speed-up the download
+- option -n N_CONNECTIONS enables to specify the number of client connections; useful to speed-up the download if you have a large bandwidth.
+- options --no-segment-md5sums and --no-file-md5sum remove the automatic file integrity checks by md5sum (which can be quite slow); useful to speed-up the download in cases where you have faith in your connection
+
+#### to debug
+- option -v enables verbose mode; useful to debug a download that crashes, or identify bottlenecks in the transfer.
+- option --log-file FILE prints a log into a specified file; useful to debug a download that crashes.
